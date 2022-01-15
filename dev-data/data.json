@@ -1,0 +1,174 @@
+[
+    {
+        "id": 0,
+        "name": "Mercedes-Benz S-Class",
+        "description": "Mercedes-Benz S-Class is a 5 seater Luxury available in a price range of Rs. 1.57 - 1.61 Cr*. It is available in 2 variants, 2 engine options that are BS6 compliant and a single Automatic transmission. Other key specifications of the S-Class include a kerb weight of and boot space of Liters. The S-Class is available in 5 colours. Over 11 User reviews basis Mileage, Performance, Price and overall experience of users for Mercedes-Benz S-Class.",
+        "price": "Rs.1.57 - 1.61 Cr",
+        "mileage": "10.6 kmpl",
+        "HP": "362.07",
+
+        "reviews": [
+            "This Is A Wonderful Car",
+            "The safest car.",
+            "Me & My Beloved Mercedes-Benz S-Class"
+        ]
+    },
+
+    {
+        "id": 1,
+        "name": "Jeep Wrangler",
+        "description": "Jeep Wrangler is a 5 seater SUV available in a price range of Rs. 55.15 - 59.15 Lakh*. It is available in 2 variants, a 1998 cc, BS6 and a single Automatic transmission. Other key specifications of the Wrangler include a kerb weight of, ground clearance of 217mm and boot space of Liters. The Wrangler is available in 4 colours. Over 23 User reviews basis Mileage, Performance, Price and overall experience of users for Jeep Wrangler.",
+        "price": "Rs.55.15 - 59.15 Lakh",
+        "mileage": "12.1 kmpl",
+        "HP": "268.0",
+
+        "reviews": [
+            "ULTIMATE JEEP.",
+            "The Best Car",
+            "Best in Performance Of BS6"
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "BMW X7",
+        "description": "BMW X7 is a 7 seater SUV available in a price range of Rs. 1.15 - 1.73 Cr*. It is available in 3 variants, 2 engine options that are BS6 compliant and a single Automatic transmission. Other key specifications of the X7 include a kerb weight of and boot space of 326 Liters. The X7 is available in 11 colours. Over 18 User reviews basis Mileage, Performance, Price and overall experience of users for BMW X7.",
+        "price": "Rs.1.15 - 1.73 Cr",
+        "mileage": "13.38 kmpl",
+        "HP": "394.26",
+
+        "reviews": [
+            "BMW X7 is best car for ever",
+            "BMW X7 Enthusiast",
+            "Great Car With All Features."
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Jaguar XF",
+        "description": "Jaguar XF is a 5 seater Sedan available in a price range of Rs. 71.60 - 76.00 Lakh*. It is available in 2 variants, a 1997 cc, BS6 and a single Automatic transmission. Other key specifications of the XF include a kerb weight of 1660kg, ground clearance of 135mm and boot space of 459l Liters. The XF is available in 12 colours. Over 37 User reviews basis Mileage, Performance, Price and overall experience of users for Jaguar XF.",
+        "price": "Rs.71.60 - 76.00 Lakh",
+        "mileage": "14.20 kmpl",
+        "HP": "246.74",
+
+        "reviews": [
+            "My Dream Car",
+            "Luxurious Car",
+            "Great Job By Jaguar"
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Lexus LC 500h",
+        "description": "Lexus LC 500h is a 4 seater Luxury available in a price range of Rs. 2.09 - 2.15 Cr*. It is available in 2 variants, a 3456 cc, BS6 and a single Automatic transmission. Other key specifications of the LC 500h include a kerb weight of 1980-2015kg and boot space of Liters. The LC 500h is available in 8 colours. Over 3 User reviews basis Mileage, Performance, Price and overall experience of users for Lexus LC 500h.",
+        "price": "Rs.2.09 - 2.15 Cr",
+        "mileage": "12.3 kmpl",
+        "HP": "500",
+
+        "reviews": [
+            "Ultimate Beauty",
+            "Beast Is Here",
+            "Excellent Road Grips And Turning Radius"
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Land Rover Range Rover Sport",
+        "description": "Land Rover Range Rover Sport is a 5 seater Luxury available in a price range of Rs. 91.27 Lakh - 2.19 Cr*. It is available in 11 variants, 4 engine options that are BS6 compliant and a single Automatic transmission. Other key specifications of the Range Rover Sport include a kerb weight of 2302kg, ground clearance of 213mm and boot space of 784 Liters. The Range Rover Sport is available in 12 colours. Over 27 User reviews basis Mileage, Performance, Price and overall experience of users for Land Rover Range Rover Sport.",
+        "price": "Rs.91.27 Lakh - 2.19 Cr",
+        "mileage": "12.65 kmpl",
+        "HP": "567.25",
+
+        "reviews": [
+            "The Perfect Luxury Sports SUV",
+            "Best Range Rover",
+            "Range Rover sport lover"
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Bentley Continental",
+        "description": "Bentley Continental is a 4 seater Super Luxury available in a price range of Rs. 3.29 - 3.91 Cr*. It is available in 4 variants, 2 engine options that are BS6 compliant and a single Automatic transmission. Other key specifications of the Continental include a kerb weight of 2495kg, ground clearance of 142mm and boot space of 358 Liters. The Continental is available in 5 colours. Over 12 User reviews basis Mileage, Performance, Price and overall experience of users for Bentley Continental.",
+        "price": "Rs.3.29 - 3.91 Cr",
+        "mileage": "12.9 kmpl",
+        "HP": "626.0",
+
+        "reviews": [
+            "Gorgeous car",
+            "Perfect Bond of Power And Poshness",
+            "Amazing Car"
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "Rolls-Royce Cullinan",
+        "description": "Rolls-Royce Cullinan is a 5 seater Luxury available in a price range of Rs. 6.95 Cr*. It is available in 1 variants, a 6750 cc, BS6 and a single Automatic transmission. Other key specifications of the Cullinan include a kerb weight of 2660Kg and boot space of 560 Liters. The Cullinan is available in 2 colours. Over 18 User reviews basis Mileage, Performance, Price and overall experience of users for Rolls-Royce Cullinan.",
+        "price": "Rs.6.95 Cr",
+        "mileage": "9.5 kmpl",
+        "HP": "563.0",
+
+        "reviews": [
+            "Best Suv",
+            "Best Interior In The World.",
+            "The Best Vehicle "
+        ]
+    },
+
+    {
+        "id": 8,
+        "name": "Audi A8",
+        "description": "Audi A8 is a 5 seater Luxury available in a price range of Rs. 1.57 Cr*. It is available in 1 variants, a 2995 cc, BS6 and a single Automatic transmission. Other key specifications of the A8 include a kerb weight of 2030 and boot space of Liters. The A8 is available in 12 colours. Over 11 User reviews basis Mileage, Performance, Price and overall experience of users for Audi A8.",
+        "price": "Rs.1.57 Cr",
+        "mileage": "11.7 kmpl",
+        "HP": "335.2",
+
+        "reviews": [
+            "Awesome Car",
+            "The Best Vehicle ",
+            "The dream car"
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

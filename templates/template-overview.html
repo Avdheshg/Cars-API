@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /*
+            main-bg: rgba(201,202,205,255)
+            sub-bg: rgba(241,237,231,255)
+            api-btn: #3fab9d
+        */
+
+
+        .container {
+            background-color: rgba(201,202,205,255);
+            padding: 1em;
+            color: rgb(83, 83, 83);
+        }
+        
+        .header {
+            width: 90em;
+            margin: 2em;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            /* justify-items:center; */
+        }
+
+        .card-container {
+            display: grid;
+            grid-gap: 3em;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 1fr;
+            background-color: rgba(241,237,231,255);
+            padding: 4em;
+            
+            width: 90em;
+            margin: auto;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 1em;
+            transition: all .3s ease;
+
+            /* shadow */
+            box-shadow: 10px 10px 20px -2px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 20px -2px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 20px -2px rgba(0,0,0,0.75);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);  
+        }
+
+        .card__img img {
+            width: 100%;
+        }
+
+        .nav-btn  {
+            padding: 1em 1em;
+            background-color: #3fab9d;
+            /* background-color: #3a756d; */
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: all .3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #479b90;
+        }
+
+        .api-btn {
+            background-color: #3fab9d;
+            /* margin: 4em; */
+            width: 8em;
+            margin-left: auto;
+            border-radius: 1em;
+            /* margin-right: auto; */
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="header">
+            <h1 class="main-heading">Cars Overview</h1>
+            <a href="/api" class="nav-btn api-btn">API</a>
+        </div>
+        <!-- <img src="../img/2.jpg" alt="car image"> -->
+        <div class="card-container">
+            {%PRODUCT_CARDS%}
+
+            <figure class="card">
+
+                <div class="card__img">
+                    <img src="../img/{%ID%}.jpg" alt="car image">
+                </div>
+                <div class="card__desc">
+                    <h3> {%NAME%} </h3>
+                    <p>{%PRICE%}</p>
+                </div>
+                <a class="nav-btn card__details" href="/product?id={%ID%}">Details</a>
+            
+            </figure>
+
+        </div>
+
+        
+    </div>
+
+
+</body>
+</html>

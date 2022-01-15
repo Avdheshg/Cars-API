@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{%NAME%}</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: rgba(201,202,205,255);
+            color: rgb(83, 83, 83);
+            padding: 4em;
+            height: 100vh;
+        }
+
+        .product {
+            width: 90em;
+            margin: 0 auto;
+            background-color: rgba(241,237,231,255);
+            padding: 4em;
+            /* color: #fff; */
+        }
+
+        .product__showcase {
+            display: flex;
+
+            position: relative;
+        }
+
+        .back {
+            position: absolute;
+            padding: 1em 2em;
+            background-color: teal;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .showcase-img {
+            height: 30em;
+            width: 45em;
+            object-fit: cover;
+        }
+
+        .product__showcase-details {
+            padding-left: 4em;
+        }
+
+        .product__showcase-details > div {
+            margin-top: 1em;
+        }
+
+        .pruduct__showcase--features {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .product__reviews {
+            margin-top: 4em;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- this will be shown as a seperate card on the overview page -->
+    <div class="container">
+
+        <figure class="product">
+
+            <div class="product__showcase">
+                <div class="prodcut__showcase-img">
+                    <a class="back" href="/">Back</a>
+                    <img class="showcase-img" src="../img/{%ID%}.jpg" alt="car image">
+                </div>
+
+                <div class="product__showcase-details">
+                    <h2 class="product__name">{%NAME%}</h2>
+                    <div class="product__description">
+                        <!-- {%DESCRIPTION%} -->
+                        {%DESCRIPTION%}
+                    </div>
+                    <div class="pruduct__showcase--features">
+                        <p>{%PRICE%}</p>
+                        <p>Mileage: {%MILEAGE%}</p>
+                        <p>HP: {%HP%}</p>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="product__reviews">
+                <p>{%REVIEW-0%}</p>
+                <p>{%REVIEW-1%}</p>
+                <p>{%REVIEW-2%}</p>
+            </div>
+
+        </figure>
+
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
